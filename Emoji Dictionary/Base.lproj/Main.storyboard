@@ -22,16 +22,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9RQ-CB-E2G">
-                                <rect key="frame" x="0.0" y="86" width="315" height="115"/>
+                                <rect key="frame" x="0.0" y="240" width="345" height="427"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9RQ-CB-E2G" secondAttribute="bottom" constant="466" id="5kY-Ne-lh2"/>
-                            <constraint firstItem="9RQ-CB-E2G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FfD-sM-4he"/>
-                            <constraint firstItem="9RQ-CB-E2G" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="66" id="u40-lx-sDs"/>
-                            <constraint firstAttribute="trailing" secondItem="9RQ-CB-E2G" secondAttribute="trailing" constant="60" id="yhP-HO-n8V"/>
+                            <constraint firstItem="9RQ-CB-E2G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="0GR-CM-Hjm"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9RQ-CB-E2G" secondAttribute="bottom" constant="312" id="5kY-Ne-lh2"/>
+                            <constraint firstItem="9RQ-CB-E2G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="FfD-sM-4he"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9RQ-CB-E2G" secondAttribute="bottom" constant="312" id="UD7-Yn-rel"/>
+                            <constraint firstItem="9RQ-CB-E2G" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ag8-ps-fiy"/>
+                            <constraint firstAttribute="trailing" secondItem="9RQ-CB-E2G" secondAttribute="trailing" constant="30" id="dJx-Im-781"/>
+                            <constraint firstItem="9RQ-CB-E2G" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="220" id="pax-jx-Eka"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9RQ-CB-E2G" secondAttribute="bottom" id="qqb-hm-5nY"/>
+                            <constraint firstItem="9RQ-CB-E2G" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="220" id="u40-lx-sDs"/>
+                            <constraint firstItem="9RQ-CB-E2G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uZ3-7f-ZWg"/>
+                            <constraint firstAttribute="trailing" secondItem="9RQ-CB-E2G" secondAttribute="trailing" id="xfv-gP-3oN"/>
+                            <constraint firstAttribute="trailing" secondItem="9RQ-CB-E2G" secondAttribute="trailing" constant="30" id="yhP-HO-n8V"/>
                         </constraints>
                     </view>
                     <connections>
